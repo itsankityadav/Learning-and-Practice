@@ -148,6 +148,19 @@
             background: pink;
         }
     </style>
+    <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
+    <script src="ripples.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('#profile_ripple').ripples({resolution: 512,dropRadius:10});
+        })
+        // $(document).ready(function(){
+        // $('#profile_ripple').ripples({
+        // resolution: 512,
+        // dropRadius:10
+        // });
+        
+    </script>
     <title>Modern CV</title>
 </head>
 <body>
@@ -218,8 +231,6 @@
         </section>
     </main>
     <script src="app.js"></script>
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="headline.js"></script>
-    <script src="ripples.js"></script>
+
 </body>
 </html>
