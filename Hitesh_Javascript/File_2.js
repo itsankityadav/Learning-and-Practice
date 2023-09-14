@@ -45,6 +45,18 @@ console.log(4 + 4)
 
 //  (7). Symbol : it is used in react component for Uniqueness
 
+//  Number => Represents numbers of any kind, both integer and floating-point. The maximum value for an integer is ±(2^53 - 1), and the maximum value for a floating-point number is ±(10^308).
+
+//  String => Represents a sequence of zero or more characters. Strings can be enclosed in single quotes (') or double quotes (").
+
+//  Boolean => Represents a logical value, either true or false.
+
+//  Null => Represents the absence of a value.
+
+//  Undefined => Represents a value that has not yet been assigned.
+
+//  BigInt => Represents integers of arbitrary length. BigInts are not supported in all browsers, so you should use them with caution.
+
 // Non-primitive data types => The data types that are derived from primitive data types of the JavaScript language are known as non-primitive data types. It is also known as derived data types or reference data types.
 //      (a). Non-Primitive data types are created by the programmer
 //      (b). Size is not fixed
