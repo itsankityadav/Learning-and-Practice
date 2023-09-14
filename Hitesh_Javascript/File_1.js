@@ -16,10 +16,10 @@ console.table([typeof accountId, typeof name, typeof crush_name, typeof location
 
 // const accountId = 15343;  // re-assignment not allow
 // let name = "Ankit";       // value re-assignment allow but same variable not declare not allow
-var crush_name = "Akansha"; 
-location = "Bengaluru";
+var crush_name = "Akansha";  // New-value assigned
+location = "Bengaluru";      // New-value assigned
 
 console.table([accountId, name, crush_name, location])
 console.table([typeof accountId, typeof name, typeof crush_name, typeof location])
 
-// const p;
+// const p; assigne value at the time of declaration of const variable
