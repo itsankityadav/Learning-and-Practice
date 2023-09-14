@@ -6,6 +6,8 @@
 console.log(3 + 3)   //=> work with or without semi-colon...
 console.log(4 + 4)
 
+//  Typeof =>The typeof operator in JavaScript returns the data type of its operand. The operand can be any variable, function, or object. The typeof operator is a unary operator, which means it takes one operand. The operand can be enclosed in parentheses, but this is not necessary.
+
 // (3). Primitive data types => The predefined data types provided by JavaScript language are known as primitive data types. Primitive data types are also known as in-built data types.
 //
 //      Types of Primitive data types
@@ -58,6 +60,7 @@ console.log(4 + 4)
 //  BigInt => Represents integers of arbitrary length. BigInts are not supported in all browsers, so you should use them with caution.
 
 // Non-primitive data types => The data types that are derived from primitive data types of the JavaScript language are known as non-primitive data types. It is also known as derived data types or reference data types.
+//      
 //      (a). Non-Primitive data types are created by the programmer
 //      (b). Size is not fixed
 //
