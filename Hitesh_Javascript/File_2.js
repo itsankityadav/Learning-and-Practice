@@ -14,7 +14,7 @@ console.log(4 + 4)
 //      (1). Number
 //      (2). String
 //      (3). Boolean
-//      (4). null
+//      (4). null  (standalone value)
 //      (5). Undefined
 //      (6). BigInt
 //      (7). Symbol
@@ -46,6 +46,112 @@ console.log(4 + 4)
         console.log(typeof(Number2), Number2);
 
 //  (7). Symbol : it is used in react component for Uniqueness
+
+//  Conversion of data types
+        console.log("\n");
+        console.log("Conversion other Data-Types to Number");
+        let num1 = 123;
+        let num2 = "123";
+//      let num3 = a123;  invalid
+        let num4 = "a123";
+//      let num5 = 123a;  invalid
+        let num6 = "123a"
+        let num7 = false;
+        let num8 = "";
+        let num9;
+        let num10 = null;
+
+        console.log(typeof num1, num1);
+        console.log("\n");
+
+        console.log(typeof num2, num2);
+        num2 = Number(num2);
+        console.log(typeof num2, num2);
+        console.log("\n");
+
+        console.log(typeof num4, num4);
+        num4 = Number(num4);
+        console.log(typeof num4, num4);
+        console.log("\n");
+
+        console.log(typeof num6, num6);
+        num6 = Number(num6);
+        console.log(typeof num6, num6);
+        console.log("\n");
+
+        console.log(typeof num7, num7);
+        num7 = Number(num6);
+        console.log(typeof num7, num7);
+        console.log("\n");
+
+        console.log(typeof num8, num8);
+        num8 = Number(num6);
+        console.log(typeof num8, num8);
+        console.log("\n");
+
+        console.log(typeof num9, num9);
+        num9 = Number(num6);
+        console.log(typeof num9, num9);
+        console.log("\n");
+
+        console.log(typeof num10, num10);
+        num10 = Number(num6);
+        console.log(typeof num10, num10);
+        console.log("\n");
+
+        console.log("\n");
+        console.log("Conversion other Data-Types to String");
+        let str1 = 123;
+        let str2 = "123";
+        // let str3 = a123;  
+        let str4 = "a123";
+        // let str5 = 123a;  
+        let str6 = "123a"
+        let str7 = false;
+        let str8 = "";
+        let str9;
+        let str10 = null;
+
+        console.log(typeof str1, str1);
+        str1 = String(str1);
+        console.log(typeof str1, str1);
+        console.log("\n");
+
+        console.log(typeof str2, str2);
+        str2 = String(str2);
+        console.log(typeof str2, str2);
+        console.log("\n");
+
+        console.log(typeof str4, str4);
+        str4 = String(str4);
+        console.log(typeof str4, str4);
+        console.log("\n");
+
+        console.log(typeof str6, str6);
+        str6 = String(str6);
+        console.log(typeof str6, str6);
+        console.log("\n");
+
+        console.log(typeof str7, str7);
+        str7 = String(str7);
+        console.log(typeof str7, str7);
+        console.log("\n");
+
+        console.log(typeof str8, str8);
+        str8 = String(str8);
+        console.log(typeof str8, str8);
+        console.log("\n");
+
+        console.log(typeof str9, str9);
+        str9 = String(str9);
+        console.log(typeof str9, str9);
+        console.log("\n");
+
+        console.log(typeof str10, str10);
+        str10 = String(str10);
+        console.log(typeof str10, str10);
+        console.log("\n");
+
 
 //  Number => Represents numbers of any kind, both integer and floating-point. The maximum value for an integer is ±(2^53 - 1), and the maximum value for a floating-point number is ±(10^308).
 
